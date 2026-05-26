@@ -171,6 +171,43 @@
       line-height:1.8;
     }
 
+    /* ===== Education ===== */
+
+    .education{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+      gap:30px;
+    }
+
+    .edu-card{
+      background:#1e293b;
+      padding:30px;
+      border-radius:20px;
+      transition:0.3s;
+      border-left:5px solid #38bdf8;
+    }
+
+    .edu-card:hover{
+      transform:translateY(-10px);
+      box-shadow:0 10px 30px rgba(0,0,0,0.4);
+    }
+
+    .edu-card h3{
+      color:#38bdf8;
+      margin-bottom:10px;
+    }
+
+    .edu-card h4{
+      margin-bottom:15px;
+      color:#e2e8f0;
+      font-weight:500;
+    }
+
+    .edu-card p{
+      color:#cbd5e1;
+      line-height:1.8;
+    }
+
     /* ===== Skills ===== */
 
     .skills{
@@ -334,6 +371,7 @@
 
     <ul>
       <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
       <li><a href="#skills">Skills</a></li>
       <li><a href="#projects">Projects</a></li>
       <li><a href="#contact">Contact</a></li>
@@ -399,6 +437,58 @@
           Machine Learning and Data Science with interest in
           prediction models, intelligent systems and
           data-driven real-world solutions.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ===== Education ===== -->
+
+  <section id="education">
+
+    <h2 class="section-title">Education</h2>
+
+    <div class="education">
+
+      <div class="edu-card">
+
+        <h3>B.Tech - CSE (Data Science)</h3>
+
+        <h4>Kakatiya Institute of Technology and Science</h4>
+
+        <p>
+          Pursuing Bachelor of Technology in Computer Science
+          and Engineering (Data Science) with a CGPA of
+          <strong>8.9</strong>.
+        </p>
+
+      </div>
+
+      <div class="edu-card">
+
+        <h3>Intermediate - MPC</h3>
+
+        <h4>Valley Oak Junior College, Hyderabad</h4>
+
+        <p>
+          Completed Intermediate education in MPC stream with
+          <strong>940/1000</strong> marks.
+        </p>
+
+      </div>
+
+      <div class="edu-card">
+
+        <h3>Schooling</h3>
+
+        <h4>Shine High School</h4>
+
+        <p>
+          Completed SSC with a perfect
+          <strong>10 CGPA</strong>.
         </p>
 
       </div>
